@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  
+  <title>Service Worker Demo Add To Home Screen</title>
+  <link rel="stylesheet" href="styles/index.css">
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+  <link rel="manifest" href="scripts/manifest.json">
+</head>
+
+<body>
+  <div class='tc'>
+      <h1>This is demo add to home screen</h1>
+      <div class='pa2'>
+          <input
+              class='pa3 ba b--green bg-lightest-blue' 
+              type='search' 
+              placeholder='Input image name' 
+          />
+      </div>
+      <div>
+          <div class='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5'>
+              <img src='images/i1.jpg' alt='iamge 1' />
+              <div>
+                  <h2>Aries</h2>
+                  <p>Mar to April</p>
+              </div>
+          </div>
+          <div class='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5'>
+              <img src='images/i2.jpg' alt='iamge 1' />
+              <div>
+                  <h2>Aries</h2>
+                  <p>Mar to April</p>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>
